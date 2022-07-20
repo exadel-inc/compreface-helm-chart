@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  compreface-kubernetes:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-07-20T16:46:45.1287569+03:00"
+    description: A Helm chart of compreface for Kubernetes
+    digest: 561a5f5595e843ebf8fa00c4db8a255aaccfe11e5e5edd079a6cf37452fa8df9
+    name: helm
+    type: application
+    urls:
+    - https://github.com/exadel-inc/compreface-helm-chart/compreface-kubernetes-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-20T16:46:45.1282307+03:00"
