@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Helm Chart
+This tutorial shows how to deploy CompreFace using Helm. To use helm you need to install it first, see the instructions [here](https://helm.sh/docs/intro/install/)
 
-You can use the [editor on GitHub](https://github.com/exadel-inc/compreface-helm-chart/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+In order to use compreface helm chart you need to configure your own Helm client.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```commandline
+$ helm repo add compreface  https://exadel-inc.github.io/compreface-helm-chart/
+“compreface” has been added to your repositories
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+You can check compreface chart version by command:
+```commandline
+helm search repo compreface
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/exadel-inc/compreface-helm-chart/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+NAME                            CHART VERSION   APP VERSION     DESCRIPTION                              
+test/compreface-kubernetes      0.1.0           1.16.0          A Helm chart of compreface for Kubernetes
+```
