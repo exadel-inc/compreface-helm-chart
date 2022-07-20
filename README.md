@@ -12,6 +12,7 @@ You can check compreface chart version by command:
 ```commandline
 helm search repo compreface
 
-NAME                            CHART VERSION   APP VERSION     DESCRIPTION                              
-test/compreface-kubernetes      0.1.0           1.16.0          A Helm chart of compreface for Kubernetes
+NAME                                    CHART VERSION   APP VERSION     DESCRIPTION                              
+compreface/compreface-kubernetes        0.1.0           1.16.0          A Helm chart of compreface for Kubernetes
+
 ```
